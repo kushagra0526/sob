@@ -19,7 +19,7 @@
   <a href="https://interfaze.ai/leaderboards/structured-output-benchmark">
     <img alt="Interfaze" src="https://img.shields.io/badge/Interfaze-Leaderboard-1f6feb">
   </a>
-  <a href="https://github.com/JigsawStack/sob/blob/main/LICENSE">
+  <a href="https://github.com/InterfazeAI/sob/blob/main/LICENSE">
     <img alt="License" src="https://img.shields.io/badge/License-MIT-blue">
   </a>
   <a href="https://interfaze.ai">
@@ -71,7 +71,7 @@ audio = load_dataset("interfaze-ai/sob", "audio", split="train") #   115 records
 Or run a 5-record smoke test end-to-end:
 
 ```bash
-git clone https://github.com/JigsawStack/sob && cd sob
+git clone https://github.com/InterfazeAI/sob && cd sob
 make install
 export OPENROUTER_API_KEY=...
 python -m sob.run --provider openrouter --modality text \
@@ -84,7 +84,7 @@ python evaluate.py data/text_responses/response_google_gemma-4-31b-it.jsonl
 Python 3.12, clean virtualenv:
 
 ```bash
-git clone https://github.com/JigsawStack/sob && cd sob
+git clone https://github.com/InterfazeAI/sob && cd sob
 uv venv && source .venv/bin/activate
 make install
 ```
@@ -210,4 +210,4 @@ The HotpotQA team, the AMI Meeting Corpus team, and the Allen AI olmOCR team for
 
 ## Contact
 
-Open an [issue](https://github.com/JigsawStack/sob/issues) or reach the authors at `{abhinav, harsha, yoeven, vineet}@interfaze.ai`.
+Open an [issue](https://github.com/InterfazeAI/sob/issues) or reach the authors at `{abhinav, harsha, yoeven, vineet}@interfaze.ai`.
